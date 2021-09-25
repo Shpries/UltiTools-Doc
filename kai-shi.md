@@ -2,12 +2,12 @@
 
 # 下载
 
-1. UltiTools插件本体（必需）
-2. 前置插件UltiCore（必需）
-3. 前置插件PlaceholderAPI（必需）
-4. 前置插件Vault（必需）
-5. 自选经济插件（必需）推荐：UltiEcomony
-6. 配套等级插件UltiLevel（可选）
+1. [UltiTools插件本体](https://www.spigotmc.org/resources/ultikits-ultitools.85214/)（必需）
+2. [前置插件UltiCore](https://www.spigotmc.org/resources/ultikits-ulticore.86207/)（必需）
+3. [前置插件PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)（必需）
+4. [前置插件Vault](https://www.spigotmc.org/resources/vault.34315/)（必需）
+5. 自选经济插件（必需）推荐：[UltiEcomony](https://www.mcbbs.net/thread-1060351-1-1.html)
+6. 配套等级插件[UltiLevel](https://www.mcbbs.net/thread-1060810-1-1.html)（可选）
 
 # 安装
 
@@ -18,9 +18,21 @@
 
 
 
+# 激活UltiTools Pro（可选）
+
+欲解锁UltiTools全部功能，请激活UltiTools Pro
+
+付费激活平台[https://panel.ultikits.com](https://panel.ultikits.com/)
+
+详细激活教程及7天时长的pro会员体验教程，请添加官方QQ群972992056，并至群文件查看。
+
 ---
 
-## 购买UltiTools Pro（可选）
+# 更多
+
+官网：[https://ultikits.com/](https://ultikits.com/)
+
+自主排错：[https://ultikits.com/troubleshoot.html](https://ultikits.com/troubleshoot.html)
 
 
 
