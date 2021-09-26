@@ -16,13 +16,11 @@
 3. 重新启动服务端
 4. 检查plugins文件夹内是否生成了与插件同名的文件夹
 
-
-
 # 激活UltiTools Pro（可选）
 
 欲解锁UltiTools全部功能，请激活UltiTools Pro
 
-付费激活平台[https://panel.ultikits.com](https://panel.ultikits.com/)
+付费激活平台 [https://panel.ultikits.com](https://panel.ultikits.com/)
 
 详细激活教程及7天时长的pro会员体验教程，请添加官方QQ群972992056，并至群文件查看。
 
@@ -33,6 +31,4 @@
 官网：[https://ultikits.com/](https://ultikits.com/)
 
 自主排错：[https://ultikits.com/troubleshoot.html](https://ultikits.com/troubleshoot.html)
-
-
 

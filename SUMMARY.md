@@ -24,6 +24,17 @@
 * [地标](gong-kai-gong-neng/di-biao.md)
 * [飞行](gong-kai-gong-neng/fei-xing.md)
 * [聊天](gong-kai-gong-neng/cai-se-wen-zi-liao-tian.md)
+* [查看玩家背包/末影箱](gong-kai-gong-neng/cha-kan-wan-jia-bei-5305-mo-ying-xiang.md)
 * [快捷返回](gong-kai-gong-neng/kuai-jie-fan-hui.md)
 * [自定义所有文本](gong-kai-gong-neng/zi-ding-yi-suo-you-wen-ben.md)
+
+## 付费功能
+
+* [智能聊天回复](fu-fei-gong-neng/zhi-neng-liao-tian-hui-fu.md)
+* [自定义菜单](fu-fei-gong-neng/zi-ding-yi-cai-dan.md)
+* [一对一交易](fu-fei-gong-neng/guijiao-yi-xi-tong.md)
+* [好友系统](fu-fei-gong-neng/guihao-you-xi-tong.md)
+* [绑定邮箱找回密码](fu-fei-gong-neng/bang-ding-you-xiang-zhao-hui-mi-ma.md)
+* [同IP注册上限](fu-fei-gong-neng/dan-ge-ip-zhu-ce-shang-xian.md)
+* [智能清道夫](fu-fei-gong-neng/zhi-neng-qing-dao-fu.md)
 
