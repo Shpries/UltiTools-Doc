@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css"/>
 
-    <title>UltiTools官方文档-GUI登录</title>
+    <title>UltiTools官方文档-家</title>
 
 </head>
 <body class="mdui-theme-primary-indigo mdui-theme-accent-pink mdui-drawer-body-left mdui-appbar-with-toolbar">
@@ -20,7 +20,7 @@
         <div class="mdui-toolbar mdui-color-theme">
             <button mdui-drawer="{target: '#drawer'}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></button>
             <a href="javascript:" class="mdui-typo-headline">UltiTools Docs</a>
-            <a href="javascript:" class="mdui-typo-title">GUI登录</a>
+            <a href="javascript:" class="mdui-typo-title">家</a>
             <div class="mdui-toolbar-spacer"></div>
             <a href="javascript:" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>
         </div>
@@ -40,7 +40,7 @@
                 <div class="mdui-list-item-content">开始</div>
             </a>
             <li class="mdui-subheader">公开功能</li>
-            <a class="mdui-list-item mdui-ripple mdui-list-item-active" href="gui-den-lu.html">
+            <a class="mdui-list-item mdui-ripple" href="gui-den-lu.html">
                 <i class="mdui-list-item-icon mdui-icon material-icons">dialpad</i>
                 <div class="mdui-list-item-content">GUI登录</div>
             </a>
@@ -48,7 +48,7 @@
                 <i class="mdui-list-item-icon mdui-icon material-icons">email</i>
                 <div class="mdui-list-item-content">邮箱</div>
             </a>
-            <a class="mdui-list-item mdui-ripple" href="jia.html">
+            <a class="mdui-list-item mdui-ripple mdui-list-item-active" href="jia.html">
                 <i class="mdui-list-item-icon mdui-icon material-icons">home</i>
                 <div class="mdui-list-item-content">家</div>
             </a>
@@ -152,16 +152,12 @@
 <main class="mdui-container">
     <div class="mdui-row mdui-m-t-2">
         <div class="mdui-col-xs-12">
-            <h1>简介</h1>
+            <h1>家</h1>
         </div>
     </div>
     <div class="mdui-row">
         <div class="mdui-col-xs-12">
-            <p>厌倦了进入服务器后匆匆忙忙用指令输入密码的情况？担心玩家利用指令干坏事？</p>
-            <p>UltiTools提供GUI登录系统，简单的注册，简单的登录，不一般的高效。</p>
-            <p>在注册或登录前，玩家除了点击GUI内容，无法移动，无法输入命令，无法干其它任何事情。</p>
-            <p>支持设置定点登录，支持连接MySQL数据库，管理员重置玩家密码；</p>
-            <p>支持设置单个ip注册上限，支持绑定邮箱修改密码 （付费功能）。</p>
+            <p>支持设置多个家，自定义家的名字（支持中文），传送至指定的家，通过权限设置玩家所能设置家的最大数量</p>
         </div>
     </div>
     <div class="mdui-divider"></div>
@@ -172,14 +168,10 @@
     </div>
     <div class="mdui-row">
         <div class="mdui-col-xs-12">
-            <img class="mdui-img-rounded" src="assets/img/注册界面.png"/>
-            <img class="mdui-img-rounded" src="assets/img/注册消息.png"/>
-            <img class="mdui-img-rounded" src="assets/img/登录界面.png"/>
-            <img class="mdui-img-rounded" src="assets/img/登录信息.png"/>
-            <img class="mdui-img-rounded" src="assets/img/密码重置.png"/>
+            <img class="mdui-img-rounded" src="assets/img/家列表.png"/>
         </div>
     </div>
-    <div class="mdui-divider"></div>
+    <div class="mdui-divider mdui-m-t-2"></div>
     <div class="mdui-row">
         <div class="mdui-col-xs-12">
             <h1>使用教程</h1>
@@ -187,57 +179,75 @@
     </div>
     <div class="mdui-row">
         <div class="mdui-col-xs-12">
-            <h2>使用定点登录</h2>
+            <h2>指令列表</h2>
         </div>
     </div>
     <div class="mdui-row">
         <div class="mdui-col-xs-12">
-            <p class="mdui-typo">打开<code>UltiTools\login.yml</code>文件，在第4-9行找到</p>
-            <div class="mdui-typo">
-                <pre>enableFixPointLogin: <span class="mdui-text-color-red" style="display: inline;">false</span> <span class="mdui-text-color-grey" style="display: inline;">#是否启用定点登录</span>
-    loginPoint:
-        world: World
-        x: <span class="mdui-text-color-teal" style="display: inline;">100</span>
-        y: <span class="mdui-text-color-teal" style="display: inline;">70</span>
-        z: <span class="mdui-text-color-teal" style="display: inline;">60</span></pre>
+            <div class="mdui-table-fluid">
+                <table class="mdui-table mdui-table-hoverable">
+                    <thead>
+                    <tr>
+                        <th>指令</th>
+                        <th>描述</th>
+                        <th>权限</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="mdui-typo"><code>/homelist</code></td>
+                        <td>打开家列表</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td class="mdui-typo"><code>/sethome [家名]</code></td>
+                        <td>设置名为[家名]的家</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td class="mdui-typo"><code>/home [家名]</code></td>
+                        <td>回到名为[家名]的家</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td class="mdui-typo"><code>/delhome [家名]</code></td>
+                        <td>删除名为[家名]的家</td>
+                        <td>-</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
-            <p>根据注释修改即可</p>
-        </div>
-    </div>
-    <div class="mdui-divider"></div>
-    <div class="mdui-row">
-        <div class="mdui-col-xs-12">
-            <h2>连接MySQL数据库</h2>
         </div>
     </div>
     <div class="mdui-row">
         <div class="mdui-col-xs-12">
-            <p class="mdui-typo">打开<code>UltiTools\config.yml</code>文件，在12-21行找到如下代码</p>
+            <h2>设置玩家家的上限</h2>
+        </div>
+    </div>
+    <div class="mdui-row">
+        <div class="mdui-col-xs-12">
+            <p class="mdui-typo">打开<code>UltiTools\home.yml</code>文件</p>
+        </div>
+    </div>
+    <div class="mdui-row">
+        <div class="mdui-col-xs-12">
             <div class="mdui-typo">
-                <pre>注释1请勿修改: 设置true为使用mysql数据库，设置false为使用yml储存数据
-enableDataBase: <span class="mdui-text-color-red" style="display: inline;">false</span>
-注释2请勿修改: 填写你的Host, 默认为Localhost
-host: localhost
-注释3请勿修改: 填写你的Mysql端口, 默认为3306
-port: <span class="mdui-text-color-teal" style="display: inline;">3306</span>
-注释4请勿修改: 填写你的用户名，默认为root
-username: root
-注释5请勿修改: 填写你的密码
-password: root
-注释6请勿修改: 填写你需要连接的数据库
-database: minecraft</pre>
+                <pre># 配置文件版本，请勿修改
+config_version: <span class="mdui-text-color-teal" style="display: inline;">1.0</span>
+
+# 普通玩家可以设置的最大家数量
+home_normal: <span class="mdui-text-color-teal" style="display: inline;">3</span>
+
+# 中级玩家可以设置的最大家数量，权限：ultikits.tools.level1
+home_pro: <span class="mdui-text-color-teal" style="display: inline;">5</span>
+
+# 高级玩家可以设置的最大家数量，权限：ultikits.tools.level2
+home_ultimate: <span class="mdui-text-color-teal" style="display: inline;">10</span>
+
+# 家传送前摇
+home_tpwait: <span class="mdui-text-color-teal" style="display: inline;">3</span></pre>
             </div>
-            <p>根据注释修改即可</p>
-        </div>
-    </div>
-    <div class="mdui-row">
-        <div class="mdui-col-xs-12">
-            <h2>管理员重置玩家密码</h2>
-        </div>
-    </div>
-    <div class="mdui-row">
-        <div class="mdui-col-xs-12">
-            <p class="mdui-typo"><code>/password reset [玩家]</code> 重置[玩家]的密码</p>
+            <p>按注释配置即可</p>
         </div>
     </div>
     <div class="mdui-divider"></div>
@@ -248,8 +258,8 @@ database: minecraft</pre>
     </div>
     <div class="mdui-row">
         <div class="mdui-col-xs-12">
-            <p class="mdui-typo">与登录相关的绑定邮箱找回密码和同ip注册上限为付费功能</p>
-            <p class="mdui-typo">详见左侧“付费功能”</p>
+            <p>若在设置家时未指定家名，将会自动设置家名为“默认”，若玩家第二次设置时仍未指定家名，则会导致第一次设置的家被覆盖</p>
+            <p>请务必提醒你的玩家在设置家时指定家名</p>
         </div>
     </div>
 </main>
