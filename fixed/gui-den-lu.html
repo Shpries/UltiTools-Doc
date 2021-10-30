@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"/>
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css"/>
+
+    <title>UltiTools官方文档-GUI登录</title>
+
+</head>
+<body class="mdui-theme-primary-indigo mdui-theme-accent-pink mdui-drawer-body-left mdui-appbar-with-toolbar">
+<header>
+    <div class="mdui-appbar mdui-appbar-fixed">
+        <div class="mdui-toolbar mdui-color-theme">
+            <button mdui-drawer="{target: '#drawer'}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></button>
+            <a href="javascript:" class="mdui-typo-headline">UltiTools Docs</a>
+            <a href="javascript:" class="mdui-typo-title">GUI登录</a>
+            <div class="mdui-toolbar-spacer"></div>
+            <a href="javascript:" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <div class="mdui-drawer" id="drawer">
+        <ul class="mdui-list">
+            <li class="mdui-subheader">初遇</li>
+            <a class="mdui-list-item mdui-ripple" href="index.html">
+                <i class="mdui-list-item-icon mdui-icon material-icons">ac_unit</i>
+                <div class="mdui-list-item-content">总览</div>
+            </a>
+            <a class="mdui-list-item mdui-ripple" href="kai-shi.html">
+                <i class="mdui-list-item-icon mdui-icon material-icons">near_me</i>
+                <div class="mdui-list-item-content">开始</div>
+            </a>
+            <li class="mdui-subheader">公开功能</li>
+            <a class="mdui-list-item mdui-ripple mdui-list-item-active" href="gui-den-lu.html">
+                <i class="mdui-list-item-icon mdui-icon material-icons">dialpad</i>
+                <div class="mdui-list-item-content">GUI登录</div>
+            </a>
+            <a class="mdui-list-item mdui-ripple" href="you-xiang.html">
+                <i class="mdui-list-item-icon mdui-icon material-icons">email</i>
+                <div class="mdui-list-item-content">邮箱</div>
+            </a>
+            <a class="mdui-list-item mdui-ripple" href="jia.html">
+                <i class="mdui-list-item-icon mdui-icon material-icons">home</i>
+                <div class="mdui-list-item-content">家</div>
+            </a>
+            <a class="mdui-list-item mdui-ripple" href="tpa.html">
+                <i class="mdui-list-item-icon mdui-icon material-icons">pin_drop</i>
+                <div class="mdui-list-item-content">TPA</div>
+            </a>
+            <a class="mdui-list-item mdui-ripple" href="yuan-cheng-bei-bao.html">
+                <i class="mdui-list-item-icon mdui-icon material-icons">work</i>
+                <div class="mdui-list-item-content">远程背包</div>
+            </a>
+            <a class="mdui-list-item mdui-ripple" href="ce-bian-lan.html">
+                <i class="mdui-list-item-icon mdui-icon material-icons">format_list_numbered</i>
+                <div class="mdui-list-item-content">侧边栏</div>
+            </a>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">drag_handle</i>
+                <div class="mdui-list-item-content">头顶显示</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">lock</i>
+                <div class="mdui-list-item-content">锁箱子</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">whatshot</i>
+                <div class="mdui-list-item-content">入服欢迎</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">format_list_bulleted</i>
+                <div class="mdui-list-item-content">白名单</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">landscape</i>
+                <div class="mdui-list-item-content">多世界</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">send</i>
+                <div class="mdui-list-item-content">随机传送</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">card_giftcard</i>
+                <div class="mdui-list-item-content">礼包</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">close</i>
+                <div class="mdui-list-item-content">死亡惩罚</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">flag</i>
+                <div class="mdui-list-item-content">地标</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">airplanemode_active</i>
+                <div class="mdui-list-item-content">飞行</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">chat</i>
+                <div class="mdui-list-item-content">聊天</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">search</i>
+                <div class="mdui-list-item-content">查看玩家背包/末影箱</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">keyboard_backspace</i>
+                <div class="mdui-list-item-content">快捷返回</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">text_fields</i>
+                <div class="mdui-list-item-content">自定义所有文本</div>
+            </li>
+            <li class="mdui-subheader">付费功能</li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">replay</i>
+                <div class="mdui-list-item-content">智能聊天回复</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">view_comfy</i>
+                <div class="mdui-list-item-content">自定义菜单</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">swap_horiz</i>
+                <div class="mdui-list-item-content">一对一交易</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">group</i>
+                <div class="mdui-list-item-content">好友系统</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">vpn_key</i>
+                <div class="mdui-list-item-content">邮箱找回密码</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">clear_all</i>
+                <div class="mdui-list-item-content">智能清道夫</div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<main class="mdui-container">
+    <div class="mdui-row mdui-m-t-2">
+        <div class="mdui-col-xs-12">
+            <h1>简介</h1>
+        </div>
+    </div>
+    <div class="mdui-row">
+        <div class="mdui-col-xs-12">
+            <p>厌倦了进入服务器后匆匆忙忙用指令输入密码的情况？担心玩家利用指令干坏事？</p>
+            <p>UltiTools提供GUI登录系统，简单的注册，简单的登录，不一般的高效。</p>
+            <p>在注册或登录前，玩家除了点击GUI内容，无法移动，无法输入命令，无法干其它任何事情。</p>
+            <p>支持设置定点登录，支持连接MySQL数据库，管理员重置玩家密码；</p>
+            <p>支持设置单个ip注册上限，支持绑定邮箱修改密码 （付费功能）。</p>
+        </div>
+    </div>
+    <div class="mdui-divider"></div>
+    <div class="mdui-row">
+        <div class="mdui-col-xs-12">
+            <h1>效果图</h1>
+        </div>
+    </div>
+    <div class="mdui-row">
+        <div class="mdui-col-xs-12">
+            <img class="mdui-img-rounded" src="assets/img/注册界面.png"/>
+            <img class="mdui-img-rounded" src="assets/img/注册消息.png"/>
+            <img class="mdui-img-rounded" src="assets/img/登录界面.png"/>
+            <img class="mdui-img-rounded" src="assets/img/登录信息.png"/>
+            <img class="mdui-img-rounded" src="assets/img/密码重置.png"/>
+        </div>
+    </div>
+    <div class="mdui-divider"></div>
+    <div class="mdui-row">
+        <div class="mdui-col-xs-12">
+            <h1>使用教程</h1>
+        </div>
+    </div>
+    <div class="mdui-row">
+        <div class="mdui-col-xs-12">
+            <h2>使用定点登录</h2>
+        </div>
+    </div>
+    <div class="mdui-row">
+        <div class="mdui-col-xs-12">
+            <p class="mdui-typo">打开<code>UltiTools\login.yml</code>文件，在第4-9行找到</p>
+            <div class="mdui-typo">
+                <pre>enableFixPointLogin: <span class="mdui-text-color-red" style="display: inline;">false</span> <span class="mdui-text-color-grey" style="display: inline;">#是否启用定点登录</span>
+    loginPoint:
+        world: World
+        x: <span class="mdui-text-color-teal" style="display: inline;">100</span>
+        y: <span class="mdui-text-color-teal" style="display: inline;">70</span>
+        z: <span class="mdui-text-color-teal" style="display: inline;">60</span></pre>
+            </div>
+            <p>根据注释修改即可</p>
+        </div>
+    </div>
+    <div class="mdui-divider"></div>
+    <div class="mdui-row">
+        <div class="mdui-col-xs-12">
+            <h2>连接MySQL数据库</h2>
+        </div>
+    </div>
+    <div class="mdui-row">
+        <div class="mdui-col-xs-12">
+            <p class="mdui-typo">打开<code>UltiTools\config.yml</code>文件，在12-21行找到如下代码</p>
+            <div class="mdui-typo">
+                <pre>注释1请勿修改: 设置true为使用mysql数据库，设置false为使用yml储存数据
+enableDataBase: <span class="mdui-text-color-red" style="display: inline;">false</span>
+注释2请勿修改: 填写你的Host, 默认为Localhost
+host: localhost
+注释3请勿修改: 填写你的Mysql端口, 默认为3306
+port: <span class="mdui-text-color-teal" style="display: inline;">3306</span>
+注释4请勿修改: 填写你的用户名，默认为root
+username: root
+注释5请勿修改: 填写你的密码
+password: root
+注释6请勿修改: 填写你需要连接的数据库
+database: minecraft</pre>
+            </div>
+            <p>根据注释修改即可</p>
+        </div>
+    </div>
+    <div class="mdui-row">
+        <div class="mdui-col-xs-12">
+            <h2>管理员重置玩家密码</h2>
+        </div>
+    </div>
+    <div class="mdui-row">
+        <div class="mdui-col-xs-12">
+            <p class="mdui-typo"><code>/password reset [玩家]</code> 重置[玩家]的密码</p>
+        </div>
+    </div>
+    <div class="mdui-divider"></div>
+    <div class="mdui-row">
+        <div class="mdui-col-xs-12">
+            <h1>注意</h1>
+        </div>
+    </div>
+    <div class="mdui-row">
+        <div class="mdui-col-xs-12">
+            <p class="mdui-typo">与登录相关的绑定邮箱找回密码和同ip注册上限为付费功能</p>
+            <p class="mdui-typo">详见左侧“付费功能”</p>
+        </div>
+    </div>
+</main>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"></script>
+
+</html>
