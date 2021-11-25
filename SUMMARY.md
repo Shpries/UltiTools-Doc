@@ -26,7 +26,10 @@
 * [聊天](gong-kai-gong-neng/cai-se-wen-zi-liao-tian.md)
 * [查看玩家背包/末影箱](gong-kai-gong-neng/cha-kan-wan-jia-bei-5305-mo-ying-xiang.md)
 * [快捷返回](gong-kai-gong-neng/kuai-jie-fan-hui.md)
+* [自定义指令别称](gong-kai-gong-neng/zi-ding-yi-zhi-ling-bie-cheng.md)
+* [玩家封禁](gong-kai-gong-neng/wan-jia-feng-jin.md)
 * [自定义所有文本](gong-kai-gong-neng/zi-ding-yi-suo-you-wen-ben.md)
+* [背包备份](gong-kai-gong-neng/bei-bao-bei-fen.md)
 
 ## 付费功能
 
