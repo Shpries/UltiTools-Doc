@@ -40,4 +40,5 @@
 * [绑定邮箱找回密码](fu-fei-gong-neng/bang-ding-you-xiang-zhao-hui-mi-ma.md)
 * [同IP注册上限](fu-fei-gong-neng/dan-ge-ip-zhu-ce-shang-xian.md)
 * [智能清道夫](fu-fei-gong-neng/zhi-neng-qing-dao-fu.md)
+* [玩家一键召回](fu-fei-gong-neng/wan-jia-zhao-hui.md)
 
