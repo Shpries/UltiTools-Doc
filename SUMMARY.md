@@ -8,7 +8,7 @@
 ## 公开功能
 
 * [GUI登录](gong-kai-gong-neng/guideng-lu.md)
-* [邮箱](gong-kai-gong-neng/you-xiang.md)
+* [邮件系统](gong-kai-gong-neng/you-xiang.md)
 * [家](gong-kai-gong-neng/jia.md)
 * [TPA](gong-kai-gong-neng/tpa.md)
 * [远程背包](gong-kai-gong-neng/yuan-cheng-bei-bao.md)
