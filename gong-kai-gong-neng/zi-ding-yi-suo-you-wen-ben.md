@@ -9,7 +9,7 @@
 
 # 效果图
 
-![](/assets/自定义文本1.jpg)
+![](/assets/自定文本2.png)
 
 ---
 
@@ -21,7 +21,7 @@
 
 接着在你复制的文件（此处为ck.yml）中修改文本信息，并保存
 
-![](/assets/自定义语言2.jpg)
+![](/assets/自定文本.png)
 
 最后，打开文件Ultitools\config.yml，在第2-3行找到
 
