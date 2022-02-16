@@ -45,3 +45,7 @@
 * [智能清道夫](fu-fei-gong-neng/zhi-neng-qing-dao-fu.md)
 * [玩家一键召回](fu-fei-gong-neng/wan-jia-zhao-hui.md)
 
+## 附录
+
+* [权限大全](fu-lu/quan-xian-da-quan.md)
+
