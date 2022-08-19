@@ -1,0 +1,1 @@
+import{_ as t,c as d,o,a as s}from"./app.5703025b.js";const p=JSON.parse('{"title":"UltiTools \u6743\u9650\u8868","description":"","frontmatter":{},"headers":[],"relativePath":"guide/permission.md"}'),l={name:"guide/permission.md"},r=s("",2),i=[r];function e(a,n,u,k,m,c){return o(),d("div",null,i)}const _=t(l,[["render",e]]);export{p as __pageData,_ as default};
