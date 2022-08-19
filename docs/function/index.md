@@ -1,0 +1,41 @@
+# 功能大全
+
+## 公开功能
+
+* [GUI登录](guideng-lu.md)
+* [邮件系统](you-xiang.md)
+* [家](jia.md)
+* [TPA](tpa.md)
+* [远程背包](yuan-cheng-bei-bao.md)
+* [侧边栏](ce-bian-lan.md)
+* [头顶显示](tou-ding-xian-shi.md)
+* [锁箱子](suo-xiang-zi.md)
+* [入服欢迎](ru-fu-huan-ying.md)
+* [白名单](bai-ming-dan.md)
+* [多世界](duo-shi-jie.md)
+* [随机传送](sui-ji-chuan-song.md)
+* [礼包](li-bao.md)
+* [死亡惩罚](si-wang-cheng-fa.md)
+* [地标](di-biao.md)
+* [飞行](fei-xing.md)
+* [聊天](cai-se-wen-zi-liao-tian.md)
+* [治愈](zhi-yu.md)
+* [游戏模式切换](you-xi-mo-shi-qie-huan.md)
+* [设置行走/飞行速度](she-zhi-xing-8d70-fei-xing-su-du.md)
+* [查看玩家背包/末影箱](cha-kan-wan-jia-bei-5305-mo-ying-xiang.md)
+* [快捷返回](kuai-jie-fan-hui.md)
+* [自定义指令别称](zi-ding-yi-zhi-ling-bie-cheng.md)
+* [玩家封禁](wan-jia-feng-jin.md)
+* [自定义所有文本](zi-ding-yi-suo-you-wen-ben.md)
+* [背包备份](bei-bao-bei-fen.md)
+
+## 付费功能
+
+* [智能聊天回复](zhi-neng-liao-tian-hui-fu.md)
+* [自定义菜单](zi-ding-yi-cai-dan.md)
+* [一对一交易](guijiao-yi-xi-tong.md)
+* [好友系统](guihao-you-xi-tong.md)
+* [绑定邮箱找回密码](bang-ding-you-xiang-zhao-hui-mi-ma.md)
+* [同IP注册上限](dan-ge-ip-zhu-ce-shang-xian.md)
+* [智能清道夫](zhi-neng-qing-dao-fu.md)
+* [玩家一键召回](wan-jia-zhao-hui.md)
