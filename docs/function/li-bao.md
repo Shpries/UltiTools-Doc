@@ -68,10 +68,9 @@ playerCommands:
 
 按需放入礼包物品即可。
 
-## 注意
+::: warning 注意
 
 1. 请勿在配置文件通过contain自行设置礼包内容
-2. 礼包显示材质（item项）必须使用MOJANG标准物品名称，详见https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+2. 礼包显示材质（item项）必须使用Spigot标准物品名称，详见 [Spigot Material](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)
 
-
-
+:::

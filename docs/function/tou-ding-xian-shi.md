@@ -19,7 +19,9 @@ name_suffix: §e[§c%player_health_rounded%§e/§c%player_max_health_rounded%§e
 
 按注释及需求配置即可
 
-## 注意
+::: warning 1.12.2 及以下版本的限制
 
-名字前缀name\_prefix的设置不可过长，否则会导致插件报错
+名字前缀name\_prefix的设置不可过长(12个字符以内)，否则会导致插件对其进行裁剪来防止报错
+
+:::
 

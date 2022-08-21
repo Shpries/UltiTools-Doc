@@ -64,9 +64,10 @@ database: minecraft
 
 /password reset \[玩家\] 重置\[玩家\]的密码
 
-## 注意
+::: info
 
 与登录相关的绑定邮箱找回密码和同ip注册上限为付费功能
 
 详见左侧“付费功能”
 
+:::
