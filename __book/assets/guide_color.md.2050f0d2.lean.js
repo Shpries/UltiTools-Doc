@@ -1,1 +1,0 @@
-import{_ as t,c as d,o as r,a as e}from"./app.5703025b.js";const y=JSON.parse('{"title":"\u6587\u5B57\u6837\u5F0F\u4EE3\u7801","description":"","frontmatter":{},"headers":[],"relativePath":"guide/color.md"}'),o={name:"guide/color.md"},a=e("",2),i=[a];function l(s,c,m,p,v,n){return r(),d("div",null,i)}const h=t(o,[["render",l]]);export{y as __pageData,h as default};
