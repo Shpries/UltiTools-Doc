@@ -18,6 +18,8 @@
 3. 重新启动服务端
 4. 检查plugins文件夹内是否生成了与插件同名的文件夹
 
+如果你的是群组服，那么每一个子服都需要安装 UltiTools（BungeeCord 端无需安装），并且使用数据库储存以确保数据同步
+
 ## 激活UltiTools Pro（可选）
 
 欲解锁UltiTools全部功能，请激活UltiTools Pro [激活教程](/guide/pro)

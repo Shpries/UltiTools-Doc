@@ -17,12 +17,16 @@ hero:
       link: /function/
 
 features:
-  - title: "高度 GUI 化"
+  - icon: 🧮
+    title: "高度 GUI 化"
     details: 大部分功能都能在 GUI 界面完成，无需再受敲指令的烦恼
-  - title: 40+ 实用功能
+  - icon: 🔩 
+    title: 40+ 实用功能
     details: 插件带有众多实用功能，能够满足大部分的基础/进阶需求
-  - title: 开箱即用
+  - icon: 📦 
+    title: 开箱即用
     details: 所有功能自带预设配置，您无需进行任何配置也可以正常使用
-  - title: 超强兼容
+  - icon: 🧱
+    title: 超强兼容
     details: 支持 1.8-1.19 基于 Bukkit/Spigot 的各类服务端，更新迅速
 ---

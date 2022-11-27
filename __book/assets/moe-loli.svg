@@ -1,0 +1,18 @@
+<svg width="4096" height="1024" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="1026" width="4098" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text stroke="#000" transform="matrix(6.735063552856445,0,0,6.735063552856445,-1990.9593060758198,-1711.6115852521034) " font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="134" id="svg_1" y="373.509984" x="370.915246" stroke-width="5" fill="#000000">MoeLoli</text>
+  <path id="svg_2" d="m3337.069702,913.921273l174.790778,0l0,0c22.898089,0 41.460614,19.699597 41.460614,44.000269c0,24.300663 -18.562533,44.000251 -41.460614,44.000251l-174.790778,0l0,0c-22.898063,0 -41.460614,-19.699588 -41.460614,-44.000251c0,-24.300681 18.56255,-44.000269 41.460614,-44.000269z" stroke-width="1.5" stroke="#000" fill="#000000"/>
+  <path id="svg_3" d="m3145.068599,913.921273l174.790778,0l0,0c22.898089,0 41.460613,19.699597 41.460613,44.000269c0,24.300663 -18.562533,44.000251 -41.460613,44.000251l-174.790778,0l0,0c-22.898064,0 -41.460614,-19.699588 -41.460614,-44.000251c0,-24.300681 18.56255,-44.000269 41.460614,-44.000269z" stroke-width="1.5" stroke="#000" fill="#000000"/>
+  <rect stroke="#000" id="svg_4" height="96.000561" width="367.986894" y="730.059993" x="1045.986528" stroke-opacity="null" stroke-width="1.5" fill="#000000"/>
+  <rect stroke="#000" id="svg_5" height="104.000599" width="219.986017" y="722.059953" x="3305.999702" stroke-opacity="null" stroke-width="1.5" fill="#000000"/>
+ </g>
+</svg>

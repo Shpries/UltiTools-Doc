@@ -4,17 +4,39 @@ export default defineConfig ({
     title: 'UltiTools 官方使用文档',
     description: 'UltiTools 官方使用文档',
     outDir: '../__book',
+    head: [
+        ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ],
+    lastUpdated: true,
     themeConfig: {
+        outlineTitle: '文档目录',
+        localeLinks: {
+            text: '文档语言',
+            items: [
+                { text: '简体中文', link: '#' },
+            ]
+        },
+        docFooter: {
+            prev: '上一篇',
+            next: '下一篇'
+        },
+        lastUpdatedText: '更新时间',
+        editLink: {
+            pattern: 'https://github.com/Shpries/UltiTools-Doc/tree/main/docs/:path',
+            text: '在 Github 上编辑此页'
+        },
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/wisdommen/UltiTools' }
+            { icon: 'github', link: 'https://github.com/wisdommen/UltiTools' },
+            { icon: 'discord', link: 'https://discord.gg/P3fpQSRPGu' }
         ],
         footer: {
             message: 'Released under the LGPL-3.0 License. ',
             copyright: 'Copyright © 2019-' + new Date().getFullYear()
         },
         nav: [
-            { text: '指引', link: '/guide/', activeMatch:'/guide/'},
+            { text: '指引', link: '/guide/', activeMatch:'/guide/' },
             { text: '功能', link: '/function/', activeMatch:'/function/' },
+            { text: '鸣谢列表', link: '/pages/sponsors' },
             { text: 'Ultikits主站', link: 'https://ultikits.com/' },
             {
                 text: '5.2.1-Release',
@@ -28,16 +50,20 @@ export default defineConfig ({
             '/guide/': [
                 {
                     text: '指引',
+                    collapsible: true,
                     items: [
                         { text: '介绍', link: '/guide/' },
                         { text: '安装', link: '/guide/install' },
+                        { text: '数据库', link: '/guide/database' },
                         { text: 'Pro版本', link: '/guide/pro' },
                         { text: '自主排错', link: '/guide/troubleshoot' },
                     ]
                 },
                 {
                     text: '附录',
+                    collapsible: true,
                     items: [
+                        { text: '支持UltiKits', link: '/guide/sponsor' },
                         { text: '权限表', link: '/guide/permission' },
                         { text: '文字样式代码表', link: '/guide/color' },
                         { text: '物品名称表', link: 'https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html' },
@@ -54,6 +80,7 @@ export default defineConfig ({
                 },
                 {
                     text: '公开功能',
+                    collapsible: true,
                     items: [
                         { text: '白名单', link: '/function/bai-ming-dan' },
                         { text: '背包备份', link: '/function/bei-bao-bei-fen' },
@@ -85,6 +112,7 @@ export default defineConfig ({
                 },
                 {
                     text: '付费功能',
+                    collapsible: true,
                     items: [
                         { text: '找回密码', link: '/function/bang-ding-you-xiang-zhao-hui-mi-ma' },
                         { text: '同IP账号限制', link: '/function/dan-ge-ip-zhu-ce-shang-xian' },
